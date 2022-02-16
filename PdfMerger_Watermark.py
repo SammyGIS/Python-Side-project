@@ -44,8 +44,7 @@ for i in range(template.getNumpages()):
 
 
 """"
-with open("Pdfiles/dummy.pdf", "rbpython pdf.py
-") as file:
+with open("Pdfiles/dummy.pdf", "rb") as file:
     reader = PyPDF2.PdfFileReader(file)
     print(reader.numPages)
 
