@@ -3,7 +3,7 @@ import PyPDF2
 import sys
 
 #Take all the arguement
-inputs = aya.argv[1:]
+inputs = sys.argv[1:]
 
 
 # create a function that merge all the pdfs
